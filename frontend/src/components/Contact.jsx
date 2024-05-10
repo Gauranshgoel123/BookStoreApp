@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Contact() {
   const [formData, setFormData] = useState({
-    firstName: '',
+    Name: '',
     email: '',
     message: ''
   });
@@ -25,10 +25,10 @@ function Contact() {
         <input
           className="p-3 capitalize shadow-2xl glass w-full mb-4 placeholder:text-black outline-none focus:border-solid focus:border-[1px] border-[#035ec5]"
           type="text"
-          placeholder="First Name"
-          id="first-Name"
-          name="firstName"
-          value={formData.firstName}
+          placeholder=" Name"
+          id="Name"
+          name="Name"
+          value={formData.Name}
           onChange={handleChange}
         />
         
@@ -43,7 +43,7 @@ function Contact() {
           required
         />
         <input
-            className="p-3 shadow-2xl   glass w-full mb-4 text-black outline-none focus:border-solid focus:border-[1px]border-[#035ec5]"
+            className="p-3 shadow-2xl glass w-full mb-4 text-black outline-none focus:border-solid focus:border-[1px]border-[#035ec5]"
             type="date"
             required
           />
