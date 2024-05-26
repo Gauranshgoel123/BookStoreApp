@@ -24,12 +24,12 @@ function Banner() {
           </div>
           {/* chatpopup */}
           <div className="mt-3 chat chat-start">
-          <div className="chat-image avatar">
-            <div className="w-10 rounded-full">
-              <img alt="Tailwind CSS chat bubble component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            <div className="chat-image avatar">
+              <div className="w-10 rounded-full">
+                <img alt="Tailwind CSS chat bubble component" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              </div>
             </div>
-          </div>
-          <div className="chat-bubble mt-5">Relax! We don't send unnecessary spams🤖</div>
+            <div className="chat-bubble">Relax! We don't send unnecessary spams 🤖</div>
         </div>
         </div>
         <div className='w-full md:w-1/2 order-1'>
